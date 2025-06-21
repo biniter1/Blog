@@ -325,9 +325,9 @@
             <div id="about" class="section">
                 <div class="about-content">
                     <h2>👋 Xin Chào!</h2>
-                    <p>🎓 Chào mừng bạn đến với blog kiến thức cá nhân của tôi. Đây là nơi tôi chia sẻ những kiến thức học được từ các môn học đại học.</p>
+                    <p>🎓 Chào mừng bạn đến với blog kiến thức cá nhân của Sơn Bin. Đây là nơi tôi chia sẻ những kiến thức học được từ các môn học đại học.</p>
                     <p>💡 Mục tiêu của blog là tạo ra một nguồn tài liệu học tập hữu ích, giúp mọi người có thể tham khảo và học hỏi.</p>
-                    <p>📖 Nội dung chủ yếu tập trung vào các lĩnh vực: Công nghệ thông tin, Kinh tế, Marketing, Toán học và các môn học chuyên ngành khác.</p>
+                    <p>📖 Nội dung chủ yếu tập trung vào các lĩnh vực: Công nghệ thông tin tại UIT.</p>
                     <p>🤝 Hy vọng những kiến thức được chia sẻ sẽ có ích cho việc học tập của bạn!</p>
                 </div>
             </div>
@@ -346,90 +346,7 @@
 
     <script>
         // Dữ liệu bài viết lưu trong bộ nhớ
-        let posts = [
-            {
-                title: "Giới thiệu về Cấu trúc dữ liệu và Giải thuật",
-                excerpt: "Cấu trúc dữ liệu và giải thuật là nền tảng quan trọng trong khoa học máy tính. Bài viết này sẽ giới thiệu các khái niệm cơ bản và ứng dụng thực tế...",
-                content: `
-                    <h3>🔍 Cấu trúc dữ liệu là gì?</h3>
-                    <p>Cấu trúc dữ liệu là cách tổ chức và lưu trữ dữ liệu trong máy tính để có thể sử dụng một cách hiệu quả. Việc lựa chọn cấu trúc dữ liệu phù hợp có thể cải thiện đáng kể hiệu suất của chương trình.</p>
-                    
-                    <h3>📊 Các loại cấu trúc dữ liệu cơ bản:</h3>
-                    <p><strong>1. Mảng (Array):</strong> Lưu trữ các phần tử cùng kiểu trong một khối bộ nhớ liên tiếp.</p>
-                    <p><strong>2. Danh sách liên kết (Linked List):</strong> Các phần tử được liên kết với nhau thông qua con trỏ.</p>
-                    <p><strong>3. Ngăn xếp (Stack):</strong> Cấu trúc LIFO (Last In First Out).</p>
-                    <p><strong>4. Hàng đợi (Queue):</strong> Cấu trúc FIFO (First In First Out).</p>
-                    
-                    <h3>⚡ Giải thuật cơ bản:</h3>
-                    <p><strong>Sắp xếp:</strong> Bubble Sort, Quick Sort, Merge Sort</p>
-                    <p><strong>Tìm kiếm:</strong> Linear Search, Binary Search</p>
-                    <p><strong>Đồ thị:</strong> BFS, DFS</p>
-                    
-                    <h3>💼 Ứng dụng thực tế:</h3>
-                    <p>Cấu trúc dữ liệu và giải thuật được sử dụng rộng rãi trong phát triển phần mềm, hệ thống cơ sở dữ liệu, trí tuệ nhân tạo, và nhiều lĩnh vực khác.</p>
-                `,
-                date: "21/06/2025"
-            },
-            {
-                title: "Nguyên lý Marketing cơ bản",
-                excerpt: "Marketing không chỉ là quảng cáo mà còn là cả một hệ thống tư duy về khách hàng và thị trường. Hãy cùng tìm hiểu các nguyên lý cơ bản...",
-                content: `
-                    <h3>🎯 Marketing là gì?</h3>
-                    <p>Marketing là quá trình xác định, dự đoán và thỏa mãn nhu cầu của khách hàng một cách có lãi. Đây không chỉ là việc bán hàng mà còn là việc tạo ra giá trị cho khách hàng.</p>
-                    
-                    <h3>📈 4P trong Marketing Mix:</h3>
-                    <p><strong>1. Product (Sản phẩm):</strong> Chất lượng, tính năng, thiết kế, thương hiệu</p>
-                    <p><strong>2. Price (Giá cả):</strong> Chiến lược định giá, giảm giá, điều kiện thanh toán</p>
-                    <p><strong>3. Place (Kênh phân phối):</strong> Địa điểm bán hàng, logistics, coverage</p>
-                    <p><strong>4. Promotion (Xúc tiến):</strong> Quảng cáo, PR, bán hàng trực tiếp</p>
-                    
-                    <h3>👥 Phân khúc thị trường:</h3>
-                    <p>Phân chia thị trường thành các nhóm khách hàng có đặc điểm tương tự để có chiến lược marketing phù hợp.</p>
-                    <ul>
-                        <li>Phân khúc địa lý</li>
-                        <li>Phân khúc nhân khẩu học</li>
-                        <li>Phân khúc tâm lý</li>
-                        <li>Phân khúc hành vi</li>
-                    </ul>
-                    
-                    <h3>📱 Marketing thời đại số:</h3>
-                    <p>Digital Marketing đang trở thành xu hướng chủ đạo với các kênh như: Social Media, Email Marketing, Content Marketing, SEO/SEM.</p>
-                `,
-                date: "20/06/2025"
-            },
-            {
-                title: "Cơ sở dữ liệu quan hệ - SQL cơ bản",
-                excerpt: "SQL là ngôn ngữ truy vấn chuẩn cho cơ sở dữ liệu quan hệ. Bài học này sẽ hướng dẫn các câu lệnh SQL cơ bản từ SELECT đến JOIN...",
-                content: `
-                    <h3>🗄️ Cơ sở dữ liệu quan hệ là gì?</h3>
-                    <p>Cơ sở dữ liệu quan hệ tổ chức dữ liệu trong các bảng (tables) có mối quan hệ với nhau. Mỗi bảng gồm các hàng (records) và cột (fields).</p>
-                    
-                    <h3>📝 Các câu lệnh SQL cơ bản:</h3>
-                    
-                    <h4>SELECT - Truy vấn dữ liệu:</h4>
-                    <p><code>SELECT column1, column2 FROM table_name WHERE condition;</code></p>
-                    
-                    <h4>INSERT - Thêm dữ liệu:</h4>
-                    <p><code>INSERT INTO table_name (column1, column2) VALUES (value1, value2);</code></p>
-                    
-                    <h4>UPDATE - Cập nhật dữ liệu:</h4>
-                    <p><code>UPDATE table_name SET column1 = value1 WHERE condition;</code></p>
-                    
-                    <h4>DELETE - Xóa dữ liệu:</h4>
-                    <p><code>DELETE FROM table_name WHERE condition;</code></p>
-                    
-                    <h3>🔗 JOIN - Kết nối bảng:</h3>
-                    <p><strong>INNER JOIN:</strong> Lấy dữ liệu có trong cả hai bảng</p>
-                    <p><strong>LEFT JOIN:</strong> Lấy tất cả dữ liệu từ bảng bên trái</p>
-                    <p><strong>RIGHT JOIN:</strong> Lấy tất cả dữ liệu từ bảng bên phải</p>
-                    <p><strong>FULL JOIN:</strong> Lấy tất cả dữ liệu từ cả hai bảng</p>
-                    
-                    <h3>📊 Các hàm tổng hợp:</h3>
-                    <p>COUNT(), SUM(), AVG(), MIN(), MAX() - được sử dụng với GROUP BY để thống kê dữ liệu.</p>
-                `,
-                date: "19/06/2025"
-            }
-        ];
+        let posts = [];
 
         // Hiển thị section
         function showSection(sectionName) {
